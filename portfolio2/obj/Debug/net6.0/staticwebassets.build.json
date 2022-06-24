@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "3eoIuYmgJO45vB4MQuQWHGdyDTj+pVBkK7FZPN+tUIs=",
+  "Source": "portfolio2",
+  "BasePath": "_content/portfolio2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "portfolio2/wwwroot",
+      "Source": "portfolio2",
+      "ContentRoot": "/Users/exploreadrift/Desktop/dojo/C#/portfolio2/wwwroot/",
+      "BasePath": "_content/portfolio2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/exploreadrift/Desktop/dojo/C#/portfolio2/wwwroot/css/style.css",
+      "SourceId": "portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/exploreadrift/Desktop/dojo/C#/portfolio2/wwwroot/",
+      "BasePath": "_content/portfolio2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/exploreadrift/Desktop/dojo/C#/portfolio2/wwwroot/download.jpg",
+      "SourceId": "portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/exploreadrift/Desktop/dojo/C#/portfolio2/wwwroot/",
+      "BasePath": "_content/portfolio2",
+      "RelativePath": "download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/download.jpg"
+    }
+  ]
+}

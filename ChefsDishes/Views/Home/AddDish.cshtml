@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    @model Dish
+    <h1>Add a New Dish</h1>
+    <h4><a href="/Dishes">Dishes</a></h4>
+    <div class="container">
+        <form asp-action="AddDish" asp-controller="Home" method="POST">
+            <div class="d-flex mb-4 mt-5" class="form-group">
+                <span asp-validation-for="DishName"></span>
+                <label asp-for="DishName"></label>
+                <input name="DishName" class="form-control" asp-for="DishName">
+            </div>
+            <div class="d-flex mb-4" class="form-group">
+                <span asp-validation-for="Calories"></span>
+                <label asp-for="Calories"></label>
+                <input type="text" name="Calories" class="form-control" asp-for="Calories">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="Tastiness"></span>
+                <label asp-for="Tastiness"></label>
+                <select asp-for="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="Description"></span>
+                <label asp-for="Description">Descrition: </label>
+                <textarea name="Description" class="form-control" asp-for="Description"></textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChefId"></label>
+                <select class="form-control" asp-for="ChefId">
+                    @{
+                        foreach (var chef in ViewBag.allchefs)
+                        {
+                            <option value="@chef.ChefId">@chef.FirstName</option>
+                        }
+                    }
+                </select>
+
+            </div>
+            <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

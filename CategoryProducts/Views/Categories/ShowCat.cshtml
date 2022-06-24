@@ -1,0 +1,23 @@
+@model Category
+<h1>@Model.Name</h1>
+@{
+    <form asp-action="addProdToCategory" asp-controller="Categories" asp-route-CategoryId="@Model.CategoryId" method="post">
+        <select name="ProductId">
+            @foreach (Product one in ViewBag.listCat)
+            {
+                <option value="@one.ProductId">@one.Name</option>
+            }
+        </select>
+        <input type="hidden" name="CategoryId" value="@Model.CategoryId">
+        <input type="submit" value="Add" class="btn btn-success">
+    </form>
+
+}
+<ul>
+    @foreach (Association one in Model.CatAssoc)
+    {
+        <li>@one.Product.Name</li>
+    }
+</ul>
+
+<a href="/categories" class="btn btn-success"> Categories</a>

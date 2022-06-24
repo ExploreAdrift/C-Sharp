@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/dojo/C#/boxing/bin/Debug/net6.0/boxing
+/Users/exploreadrift/Desktop/dojo/C#/boxing/bin/Debug/net6.0/boxing.deps.json
+/Users/exploreadrift/Desktop/dojo/C#/boxing/bin/Debug/net6.0/boxing.runtimeconfig.json
+/Users/exploreadrift/Desktop/dojo/C#/boxing/bin/Debug/net6.0/boxing.dll
+/Users/exploreadrift/Desktop/dojo/C#/boxing/bin/Debug/net6.0/boxing.pdb
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.dll
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/refint/boxing.dll
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.pdb
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/boxing.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/dojo/C#/boxing/obj/Debug/net6.0/ref/boxing.dll

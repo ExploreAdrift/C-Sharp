@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/NewConsoleProj/bin/Debug/net6.0/NewConsoleProj
+/Users/exploreadrift/Desktop/NewConsoleProj/bin/Debug/net6.0/NewConsoleProj.deps.json
+/Users/exploreadrift/Desktop/NewConsoleProj/bin/Debug/net6.0/NewConsoleProj.runtimeconfig.json
+/Users/exploreadrift/Desktop/NewConsoleProj/bin/Debug/net6.0/NewConsoleProj.dll
+/Users/exploreadrift/Desktop/NewConsoleProj/bin/Debug/net6.0/NewConsoleProj.pdb
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.dll
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/refint/NewConsoleProj.dll
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.pdb
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/NewConsoleProj.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/NewConsoleProj/obj/Debug/net6.0/ref/NewConsoleProj.dll

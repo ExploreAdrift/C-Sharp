@@ -1,0 +1,23 @@
+<h1>Products | <a asp-action="Categories" asp-controller="Categories">Categories</a></h1>
+
+<div class="container d-flex">
+    <div class="left">
+        <h2>New Product</h2>
+        <partial name="_NewProd"></partial>
+
+    </div>
+
+    <div class="right">
+        <h2>Existing Products</h2>
+
+        @foreach (Product item in ViewBag.Products)
+        {
+            <p><a asp-action="ShowProd" asp-route-ProductId="@item.ProductId" asp-controller="Products">@item.Name</a></p>
+            @* Check this out again ProductId *@
+        }
+
+
+
+    </div>
+
+</div>

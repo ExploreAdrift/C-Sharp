@@ -1,0 +1,15 @@
+/Users/nicholassmith/Desktop/assignment/bin/Debug/net6.0/assignment
+/Users/nicholassmith/Desktop/assignment/bin/Debug/net6.0/assignment.deps.json
+/Users/nicholassmith/Desktop/assignment/bin/Debug/net6.0/assignment.runtimeconfig.json
+/Users/nicholassmith/Desktop/assignment/bin/Debug/net6.0/assignment.dll
+/Users/nicholassmith/Desktop/assignment/bin/Debug/net6.0/assignment.pdb
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.csproj.AssemblyReference.cache
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.AssemblyInfoInputs.cache
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.AssemblyInfo.cs
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.csproj.CoreCompileInputs.cache
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.dll
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/refint/assignment.dll
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.pdb
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/assignment.genruntimeconfig.cache
+/Users/nicholassmith/Desktop/assignment/obj/Debug/net6.0/ref/assignment.dll

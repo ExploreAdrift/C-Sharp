@@ -1,0 +1,11 @@
+@model Category
+
+<form asp-action="NewCategories" asp-controller="Categories" method="POST">
+    <div class="d-flex mb-4 mt-5" class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+
+</form>

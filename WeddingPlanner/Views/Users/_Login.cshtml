@@ -1,0 +1,17 @@
+@model UserLogin
+<h1>login</h1>
+<div class=" d-flex mt-4">
+    <form asp-action="Login" asp-controller="Users" method="POST">
+        <div class="mb-4 mt-4">
+            <span asp-validation-for="LoginEmail"></span>
+            <label asp-for="LoginEmail">Email: </label>
+            <input name="LoginEmail" class="form-control" asp-for="LoginEmail">
+        </div>
+        <div class="">
+            <span asp-validation-for="LoginPassword"></span>
+            <label asp-for="LoginPassword">Password: </label>
+            <input name="LoginPassword" class="form-control" asp-for="LoginPassword">
+        </div>
+        <button class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/basic13/bin/Debug/net6.0/basic13
+/Users/exploreadrift/Desktop/dojo/C#/basic13/bin/Debug/net6.0/basic13.deps.json
+/Users/exploreadrift/Desktop/dojo/C#/basic13/bin/Debug/net6.0/basic13.runtimeconfig.json
+/Users/exploreadrift/Desktop/dojo/C#/basic13/bin/Debug/net6.0/basic13.dll
+/Users/exploreadrift/Desktop/dojo/C#/basic13/bin/Debug/net6.0/basic13.pdb
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.dll
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/refint/basic13.dll
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.pdb
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/basic13.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/dojo/C#/basic13/obj/Debug/net6.0/ref/basic13.dll

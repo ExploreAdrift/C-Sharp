@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/dojo/C#/arrays/bin/Debug/net6.0/arrays
+/Users/exploreadrift/Desktop/dojo/C#/arrays/bin/Debug/net6.0/arrays.deps.json
+/Users/exploreadrift/Desktop/dojo/C#/arrays/bin/Debug/net6.0/arrays.runtimeconfig.json
+/Users/exploreadrift/Desktop/dojo/C#/arrays/bin/Debug/net6.0/arrays.dll
+/Users/exploreadrift/Desktop/dojo/C#/arrays/bin/Debug/net6.0/arrays.pdb
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.dll
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/refint/arrays.dll
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.pdb
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/arrays.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/dojo/C#/arrays/obj/Debug/net6.0/ref/arrays.dll

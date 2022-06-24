@@ -1,0 +1,24 @@
+<h1> <a asp-action="Products" asp-controller="Products">Products</a> | Categories</h1>
+</h1>
+
+<div class="container d-flex">
+    <div class="left">
+        <h2>New Categories</h2>
+        <partial name="_NewCat"></partial>
+
+    </div>
+
+    <div class="right">
+        <h2>Existing Categories</h2>
+
+        @foreach (Category item in ViewBag.Categories)
+        {
+            <p><a asp-action="ShowCat" asp-route-CategoryId="@item.CategoryId" asp-controller="Categories">@item.Name</a>
+            </p>
+        }
+
+
+
+    </div>
+
+</div>

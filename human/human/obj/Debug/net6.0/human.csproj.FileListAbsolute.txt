@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/human/bin/Debug/net6.0/human
+/Users/exploreadrift/Desktop/human/bin/Debug/net6.0/human.deps.json
+/Users/exploreadrift/Desktop/human/bin/Debug/net6.0/human.runtimeconfig.json
+/Users/exploreadrift/Desktop/human/bin/Debug/net6.0/human.dll
+/Users/exploreadrift/Desktop/human/bin/Debug/net6.0/human.pdb
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.dll
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/refint/human.dll
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.pdb
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/human.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/human/obj/Debug/net6.0/ref/human.dll

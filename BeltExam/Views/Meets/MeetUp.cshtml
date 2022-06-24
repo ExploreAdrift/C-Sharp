@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    @* WHAT DATA TYPE WE ARE WORKING WITH ON THIS PAGE *@
+    @model List<MeetUp>
+
+    <h1>Dojo Meetup <Center></Center>
+    </h1>
+
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Meetup</th>
+                    <th>Date and Time</th>
+                    <th>Duration</th>
+                    <th>Event Coordinator</th>
+                    <th>Participants</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (MeetUp w in Model)
+                {
+                    bool alreadyPart = w.Participants.Any(w => w.UserId == Context.Session.GetInt32("UserId"));
+                    <tr>
+                        <td><a asp-controller="Meets" asp-action="OneMeet" asp-route-MeetId="@w.MeetUpId">@w.Title
+                            </a></td>
+                        <td>@w.Date</td>
+                        <td>@w.Duration</td>
+                        <td>@w.Creator.Name</td>
+                        <td>@w.Participants.Count</td>
+                        <td>
+                            <form asp-controller="Meets" asp-action="Part" asp-route-MeetId="@w.MeetUpId">
+                                <button>
+                                    @if (alreadyPart == true)
+                                    {
+                                        <span>Leave</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Join</span>
+                                    }
+                                </button>
+                                @if (w.UserId == Context.Session.GetInt32("UserId"))
+                                {
+                                    <a href="/delete/@w.MeetUpId">delete</a>
+                                }
+
+                            </form>
+                        </td>
+
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<a asp-controller="Meets" asp-action="New" class="btn btn-success">Add new activity</a>
+
+</html>

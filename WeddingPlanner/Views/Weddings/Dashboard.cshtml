@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    @* WHAT DATA TYPE WE ARE WORKING WITH ON THIS PAGE *@
+    @model List<Wedding>
+
+    <h1>Welcome to the Wedding Planner!</h1>
+
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Wedding</th>
+                    <th>Date</th>
+                    <th>Guest</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Wedding w in Model)
+                {
+                    bool alreadyRsvp = w.Rsvps.Any(w => w.UserId == Context.Session.GetInt32("UserId"));
+                    <tr>
+                        <td><a asp-controller="Weddings" asp-action="OneWedding"
+                            asp-route-WeddingId="@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+                        <td>@w.Date</td>
+                        <td>@w.Rsvps.Count</td>
+                        <td>
+                            <form asp-controller="Weddings" asp-action="RSVP" asp-route-WeddingId="@w.WeddingId">
+                                <button>
+                                    @if (alreadyRsvp == true)
+                                    {
+                                        <span>UN-RSVP</span>
+                                    }
+                                    else
+                                    {
+                                        <span>RSVP</span>
+                                    }
+
+                                </button>
+                            </form>
+                        </td>
+
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<a asp-controller="Wedding" asp-action="New" class="btn btn-success">Create your dream wedding!</a>
+
+</html>

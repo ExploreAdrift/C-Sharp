@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/dojo/C#/loops/bin/Debug/net6.0/loops
+/Users/exploreadrift/Desktop/dojo/C#/loops/bin/Debug/net6.0/loops.deps.json
+/Users/exploreadrift/Desktop/dojo/C#/loops/bin/Debug/net6.0/loops.runtimeconfig.json
+/Users/exploreadrift/Desktop/dojo/C#/loops/bin/Debug/net6.0/loops.dll
+/Users/exploreadrift/Desktop/dojo/C#/loops/bin/Debug/net6.0/loops.pdb
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.dll
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/refint/loops.dll
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.pdb
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/loops.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/dojo/C#/loops/obj/Debug/net6.0/ref/loops.dll

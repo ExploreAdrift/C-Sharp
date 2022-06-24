@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    @model Dish
+
+    <div>
+        <a href="/AddDishhtml">Add a Dish!</a>
+        <a href="/">CHEFS</a> | <a href="/Dishes"> DISHES</a>
+    </div>
+    <div class="table ">
+        <table>
+            <thead>
+                <tr>
+                    <th>DISH NAME</th>
+                    <th>CHEF</th>
+                    <th>TASTINESS</th>
+                    <th>CALORIES</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var dish in @ViewBag.alldishes)
+                    {
+                        <tr>
+                            <td>@dish.DishName</td>
+                            <td>@dish.Creator.FirstName</td>
+                            <td>@dish.Tastiness</td>
+                            <td>@dish.Calories</td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

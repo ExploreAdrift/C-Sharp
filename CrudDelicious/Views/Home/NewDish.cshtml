@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    @model Dish
+    <h1>Add a New Dish</h1>
+    <div class="container">
+        <form asp-action="create" asp-controller="Home" method="POST">
+            <div class="d-flex mb-4 mt-5">
+                <span asp-validation-for="Name"></span>
+                <label asp-for="Name">Chef Name: </label>
+                <input type="text" name="Name" class="form-control" asp-for="Name">
+            </div>
+            <div class="d-flex mb-4">
+                <span asp-validation-for="Chef"></span>
+                <label asp-for="Chef">Chef: </label>
+                <input type="text" name="Chef" class="form-control" asp-for="Chef">
+            </div>
+            <div class="d-flex mb-4">
+                <span asp-validation-for="Calories"></span>
+                <label asp-for="Calories">Calories: </label>
+                <input type="text" name="Calories" class="form-control" asp-for="Calories">
+            </div>
+            <div>
+                <span asp-validation-for="Tastiness"></span>
+                <label asp-for="Tastiness">Tastiness: </label>
+                <select asp-for="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div>
+                <span asp-validation-for="Description"></span>
+                <label asp-for="Description">Descrition: </label>
+                <textarea name="Description" class="form-control" asp-for="Description"></textarea>
+            </div>
+            <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Results</title>
+</head>
+<h1 class="text-decoration-underline">Submitted Info</h1>
+
+<body>
+
+    <div class="container">
+        <div class="d-flex mb-4 mt-5">
+            <h4><label for="name">Your Name: </label></h4>
+            <h4>@Model.Name </h4>
+        </div>
+        <div class="d-flex mb-4 mt-5">
+            <h4><label for="location">Your Location: </label></h4>
+            <h4>@Model.Location </h4>
+        </div>
+        <div class="d-flex mb-4 mt-5">
+            <h4><label for="language">Your favorite language: </label></h4>
+            <h4>@Model.Language </h4>
+        </div>
+        <div class="d-flex mb-4 mt-5">
+            <h4><label for="comment">Comments: </label></h4>
+            <h4>@Model.Comment </h4>
+        </div>
+        <a href="/" class="btn btn-success" role="button">Go Back</a>
+    </div>
+
+</body>
+
+</html>

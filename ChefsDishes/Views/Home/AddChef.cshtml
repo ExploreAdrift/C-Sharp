@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    @model Chef
+    <h1>Add a New Chef!</h1>
+    <div class="container">
+        <form asp-action="AddChef" asp-controller="Home" method="POST">
+            <div class="d-flex mb-4 mt-5" class="form-group">
+                <span asp-validation-for="FirstName"></span>
+                <label asp-for="FirstName"></label>
+                <input name="FirstName" class="form-control" asp-for="FirstName">
+            </div>
+            <div class="d-flex mb-4" class="form-group">
+                <span asp-validation-for="LastName"></span>
+                <label asp-for="LastName"></label>
+                <input type="text" name="LastName" class="form-control" asp-for="LastName">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="Birthday"></span>
+                <label asp-for="Birthday"></label>
+                <input class="form-control" asp-for="Birthday" type="date"></input>
+            </div>
+
+
+
+            <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

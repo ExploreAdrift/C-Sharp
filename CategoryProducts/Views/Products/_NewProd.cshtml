@@ -1,0 +1,24 @@
+@model Product
+
+<form asp-action="NewProduct" asp-controller="Products" method="POST">
+    <div class="d-flex mb-4 mt-5" class="form-group">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="d-flex mb-4" class="form-group">
+        <span asp-validation-for="Description"></span>
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Price"></span>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control"></input>
+    </div>
+
+
+
+    <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+
+</form>

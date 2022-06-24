@@ -1,0 +1,10 @@
+@model MeetUp
+
+<h1>Event: @Model.Title</h1>
+<h3>Event Coordinator: @Model.Creator.Name</h3>
+<h4> Description: @Model.Description</h4>
+
+@foreach (Participant reserve in Model.Participants)
+{
+    <p> Particpant: @reserve.User.Name</p>
+}

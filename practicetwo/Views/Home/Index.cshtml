@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    @model practicetwo.Models.ResultsSubmit
+
+    <div class="container">
+        <form action="submit" method="post" asp-validation-for="Home">
+            <div class="d-flex mb-4 mt-5">
+                <span asp-validation-for="FirstName"></span>
+                <label asp-for="FirstName">Your First Name: </label>
+                <input type="text" name="FirstName" class="form-control" asp-for="FirstName">
+            </div>
+            <div class="d-flex mb-4">
+                <span asp-validation-for="LastName"></span>
+                <label asp-for="LastName">Your last Name: </label>
+                <input type="text" name="LastName" class="form-control" asp-for="LastName">
+            </div>
+            <div class="d-flex mb-4">
+                <span asp-validation-for="Age"></span>
+                <label asp-for="Age">Your Age: </label>
+                <input type="text" name="Age" class="form-control" asp-for="Age">
+            </div>
+            <div>
+                <span asp-validation-for="Email"></span>
+                <label asp-for="Email">Email: </label>
+                <input type="text" name="Email" class="form-control" asp-for="Email"></input>
+            </div>
+            <div>
+                <span asp-validation-for="Password"></span>
+                <label asp-for="Password">Password: </label>
+                <input type="text" name="Password" class="form-control" asp-for="Password"></input>
+            </div>
+            <button id="submit" class="btn btn-success mt-4" type="submit">SUBMIT!</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/bin/Debug/net6.0/ironninja
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/bin/Debug/net6.0/ironninja.deps.json
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/bin/Debug/net6.0/ironninja.runtimeconfig.json
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/bin/Debug/net6.0/ironninja.dll
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/bin/Debug/net6.0/ironninja.pdb
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.csproj.AssemblyReference.cache
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.GeneratedMSBuildEditorConfig.editorconfig
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.AssemblyInfoInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.AssemblyInfo.cs
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.csproj.CoreCompileInputs.cache
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.dll
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/refint/ironninja.dll
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.pdb
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ironninja.genruntimeconfig.cache
+/Users/exploreadrift/Desktop/dojo/C#/ironninja/obj/Debug/net6.0/ref/ironninja.dll

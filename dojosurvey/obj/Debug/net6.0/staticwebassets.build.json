@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PqG977gGn5xefpnvS/woEJe00GisVbMZNVP8OOuEWtA=",
+  "Source": "dojosurvey",
+  "BasePath": "_content/dojosurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
